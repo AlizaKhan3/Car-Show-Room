@@ -5,6 +5,16 @@ var cars = {
             year: 2019,
             price: "240,000 Pkr",
             colors: ["White", "Black", "Silver"],
+            transmission: "Automatic",
+            engineType: "Gasoline",
+            mileage: 5000
+        },
+        Accord: {
+            model: "Honda Accord Hybrid",
+            year: 2020,
+            price: "350,000 Pkr",
+            colors: ["Gray", "Blue", "Red"],
+            transmission: "CVT",
             engineType: "Hybrid",
             mileage: 10000
         }
