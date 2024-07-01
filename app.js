@@ -470,11 +470,37 @@ var cars = {
     }
 }
 
-const companyName = document.getElementById("companyName");
-const brandName = document.getElementById("brandName");
+var companyName = document.getElementById("companyName");
+var brandName = document.getElementById("brandName");
 
-for (const key in cars) {
-    console.log(key);
+companyName.innerHTML = `<option>Select Company</option>`
+brandName.innerHTML = `<option>Select Brand</option>`
+
+
+for (var key in cars) {
+    // console.log(key);
     companyName.innerHTML += `
-    <option> ${key.toLocaleUpperCase()} </option>`
+    <option value = "${key}"> ${key.toLocaleUpperCase()} </option>`
+    // for (const key1 in cars[key]){
+    //     // console.log(key1);
+    //     brandName.innerHTML += `
+    //     <option>${key1.toLocaleUpperCase()}</option>`
+    // }
 }
+
+function onCompanyChange(){
+    brandName.innerHTML = "";
+for (const key in cars[companyName.value]){
+    // console.log(key);
+    brandName.innerHTML += `
+    <option> ${key.toLocaleUpperCase()}</option>`
+    }
+}
+
+
+
+    // const selectedCompany = companyName.value;
+    // for (var _key in cars[selectedCompany]){
+    //   console.log(_key);
+    // }
+//   }
