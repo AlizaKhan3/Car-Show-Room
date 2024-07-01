@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+.navbar{
+    background-color: #A29415;
+    height: 80px;
+    /* color: #fff; */
+}
+
+.navbar-brand{
+    font-style: italic;
+}
+.nav-span{
+    color: #E9DB5D;
+    font-weight: bolder;
+    font-size: xx-large;
+    font-style: normal;
+}
+
+.form-select{
+    width: 200px;
+}
+
+/* #companyName{
+    width: 250px;
+} */
+
+.btn-primary{
+    background-color: #E3D026;
+    border: 1px solid #E3D026;
+}
+.btn-primary:hover{
+    background-color: #E3D026 !important;
+    border: 1px solid #E3D026 !important;
+}
+
+.btn-primary:focus{
+    background-color: #eddd4b !important;
+    border: 1px solid #eddd4b !important;
+}

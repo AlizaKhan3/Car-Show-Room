@@ -450,23 +450,31 @@ var cars = {
     },
     Jaguar: {
         FType: {
-          model: "Jaguar F-Type",
-          year: 2020,
-          price: "1,800,000 Pkr",
-          colors: ["White", "Silver", "Black"],
-          transmission: "Automatic",
-          engineType: "Gasoline",
-          mileage: 5000
+            model: "Jaguar F-Type",
+            year: 2020,
+            price: "1,800,000 Pkr",
+            colors: ["White", "Silver", "Black"],
+            transmission: "Automatic",
+            engineType: "Gasoline",
+            mileage: 5000
         },
         XE: {
-          model: "Jaguar XE",
-          year: 2021,
-          price: "2,200,000 Pkr",
-          colors: ["Gray", "White", "Black"],
-          transmission: "Automatic",
-          engineType: "Gasoline",
-          mileage: 6000
+            model: "Jaguar XE",
+            year: 2021,
+            price: "2,200,000 Pkr",
+            colors: ["Gray", "White", "Black"],
+            transmission: "Automatic",
+            engineType: "Gasoline",
+            mileage: 6000
         }
-      }
+    }
 }
 
+const companyName = document.getElementById("companyName");
+const brandName = document.getElementById("brandName");
+
+for (const key in cars) {
+    console.log(key);
+    companyName.innerHTML += `
+    <option> ${key.toLocaleUpperCase()} </option>`
+}
