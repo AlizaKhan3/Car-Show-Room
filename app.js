@@ -7,7 +7,8 @@ var cars = {
             colors: ["White", "Black", "Silver"],
             transmission: "Automatic",
             engineType: "Gasoline",
-            mileage: 5000
+            mileage: 5000,
+            image: "Car Images/civic reborn.jpeg"
         },
         accord: {
             model: "Honda Accord Hybrid",
@@ -16,7 +17,8 @@ var cars = {
             colors: ["Gray", "Blue", "Red"],
             transmission: "CVT",
             engineType: "Hybrid",
-            mileage: 10000
+            mileage: 10000,
+            image: "Car Images/civic reborn.jpeg"
         }
     },
     toyota: {
@@ -27,7 +29,8 @@ var cars = {
             colors: ["White", "Silver", "Gray"],
             transmission: "Automatic",
             engineType: "Gasoline",
-            mileage: 3000
+            mileage: 3000,
+            image: "Car Images/civic reborn.jpeg"
         },
         camry: {
             model: "Toyota Camry XSE",
@@ -36,7 +39,8 @@ var cars = {
             colors: ["Black", "Red", "White"],
             transmission: "Automatic",
             engineType: "Gasoline",
-            mileage: 5000
+            mileage: 5000,
+            image: "Car Images/civic reborn.jpeg"
         }
     },
     suzuki: {
@@ -47,7 +51,8 @@ var cars = {
             colors: ["White", "Silver", "Red"],
             transmission: "Manual",
             engineType: "Gasoline",
-            mileage: 2000
+            mileage: 2000,
+            image: "Car Images/civic reborn.jpeg"
         },
         vitara: {
             model: "Suzuki Vitara GLX",
@@ -56,7 +61,8 @@ var cars = {
             colors: ["Gray", "Blue", "White"],
             transmission: "Automatic",
             engineType: "Gasoline",
-            mileage: 4000
+            mileage: 4000,
+            image: "Car Images/civic reborn.jpeg"
         }
     },
     nissan: {
@@ -443,7 +449,7 @@ for (const key in cars) {
   <div class="card" style="width: 18rem;">
     <div class="card-body">
       <h5 class="card-title">${cars[key][key1].model || undefined} </h5>
-      <img src="" class="card-img-top" alt="...">
+      <img src="${cars[key][key1].image}" class="card-img-top" alt="...">
       <h6 class="card-subtitle mb-2 text-body-secondary">${cars[key][key1].year || undefined}</h6>
       <h6 class="card-title">Rs ${cars[key][key1].price || undefined}</h6>
     </div>
@@ -462,8 +468,6 @@ function onCompanyChange() {
     }
 }
 
-
-
 function searchCar() {
     const companyNameValue = companyName.value.toLocaleLowerCase();
     const brandNameValue = brandName.value.toLocaleLowerCase();
@@ -472,7 +476,7 @@ function searchCar() {
         <div class="card" style="width: 18rem;">
           <div class="card-body">
             <h5 class="card-title">${carInfo.model} </h5>
-            <img src="" class="card-img-top" alt="...">
+            <img  src="${carInfo.image}" class="card-img-top" alt="...">
             <h6 class="card-subtitle mb-2 text-body-secondary">${carInfo.year}</h6>
             <h6 class="card-title">Rs ${carInfo.price}</h6>
           </div>
