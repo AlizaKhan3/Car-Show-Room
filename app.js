@@ -381,7 +381,6 @@ const companyName = document.getElementById("companyName");
 const brandName = document.getElementById("brandName");
 const availableCars = document.getElementById("availableCars");
 
-
 companyName.innerHTML = `<option>Select Company</option>`
 brandName.innerHTML = `<option>Select Brand</option>`
 
