@@ -18,7 +18,7 @@ var cars = {
             transmission: "CVT",
             engineType: "Hybrid",
             mileage: 10000,
-            image: "Car Images/civic reborn.jpeg"
+            image: "Car Images/HondaAccord.jpg"
         }
     },
     toyota: {
@@ -30,7 +30,7 @@ var cars = {
             transmission: "Automatic",
             engineType: "Gasoline",
             mileage: 3000,
-            image: "Car Images/civic reborn.jpeg"
+            image: "Car Images/corolla.jpg"
         },
         camry: {
             model: "Toyota Camry XSE",
@@ -40,7 +40,7 @@ var cars = {
             transmission: "Automatic",
             engineType: "Gasoline",
             mileage: 5000,
-            image: "Car Images/civic reborn.jpeg"
+            image: "Car Images/toyotacamry.jpeg"
         }
     },
     suzuki: {
@@ -52,7 +52,7 @@ var cars = {
             transmission: "Manual",
             engineType: "Gasoline",
             mileage: 2000,
-            image: "Car Images/civic reborn.jpeg"
+            image: "Car Images/suszukiswift.jpeg"
         },
         vitara: {
             model: "Suzuki Vitara GLX",
@@ -62,7 +62,7 @@ var cars = {
             transmission: "Automatic",
             engineType: "Gasoline",
             mileage: 4000,
-            image: "Car Images/civic reborn.jpeg"
+            image: "Car Images/suszukivitara.jpeg"
         }
     },
     nissan: {
@@ -73,7 +73,8 @@ var cars = {
             colors: ["White", "Black", "Gray"],
             transmission: "CVT",
             engineType: "Gasoline",
-            mileage: 6000
+            mileage: 6000,
+            image: "Car Images/nissanaltima.jpeg" 
         },
         sentra: {
             model: "Nissan Sentra SR",
@@ -82,19 +83,11 @@ var cars = {
             colors: ["Red", "White", "Silver"],
             transmission: "Automatic",
             engineType: "Gasoline",
-            mileage: 3000
+            mileage: 3000,
+            image: "Car Images/nissansentra.jpeg"  
         }
     },
     hyundai: {
-        elantra: {
-            model: "Hyundai Elantra GLS",
-            year: 2019,
-            price: "280,000 Pkr",
-            colors: ["White", "Silver", "Gray"],
-            transmission: "Automatic",
-            engineType: "Gasoline",
-            mileage: 4000
-        },
         sonata: {
             model: "Hyundai Sonata Limited",
             year: 2021,
@@ -102,7 +95,8 @@ var cars = {
             colors: ["Black", "White", "Red"],
             transmission: "Automatic",
             engineType: "Gasoline",
-            mileage: 6000
+            mileage: 6000,
+            image: "Car Images/Hyundaisonata.jpeg"
         }
     },
     kia: {
@@ -113,7 +107,8 @@ var cars = {
             colors: ["White", "Silver", "Red"],
             transmission: "Automatic",
             engineType: "Gasoline",
-            mileage: 2000
+            mileage: 2000,
+            image: "Car Images/KiaRio.jpeg"
         },
         optima: {
             model: "Kia Optima SX",
@@ -122,7 +117,8 @@ var cars = {
             colors: ["Gray", "White", "Black"],
             transmission: "Automatic",
             engineType: "Gasoline",
-            mileage: 5000
+            mileage: 5000,
+            image: "Car Images/kiaoptima.avif"
         }
     },
     mazda: {
@@ -133,7 +129,8 @@ var cars = {
             colors: ["White", "Silver", "Red"],
             transmission: "Automatic",
             engineType: "Gasoline",
-            mileage: 3000
+            mileage: 3000,
+            image: "Car Images/Mazda3Sport.jpeg"
         },
         cx5: {
             model: "Mazda CX-5 Grand Touring",
@@ -142,7 +139,8 @@ var cars = {
             colors: ["Gray", "White", "Black"],
             transmission: "Automatic",
             engineType: "Gasoline",
-            mileage: 6000
+            mileage: 6000,
+            image: "Car Images/Mazdacx5.jpeg"
         }
     },
     ford: {
@@ -153,7 +151,8 @@ var cars = {
             colors: ["White", "Silver", "Red"],
             transmission: "Automatic",
             engineType: "Gasoline",
-            mileage: 2000
+            mileage: 2000,
+            image: "Car Images/fordFocus.jpeg"
         },
         fusion: {
             model: "Ford Fusion SE",
@@ -162,7 +161,8 @@ var cars = {
             colors: ["Gray", "White", "Black"],
             transmission: "Automatic",
             engineType: "Gasoline",
-            mileage: 4000
+            mileage: 4000,
+            image: "Car Images/fusion.avif"
         }
     },
     volkswagen: {
@@ -173,7 +173,8 @@ var cars = {
             colors: ["White", "Silver", "Red"],
             transmission: "Automatic",
             engineType: "Gasoline",
-            mileage: 3000
+            mileage: 3000,
+            image: "Car Images/Volkswagen Golf.jpeg"
         },
         jetta: {
             model: "Volkswagen Jetta GLI",
@@ -182,7 +183,8 @@ var cars = {
             colors: ["Gray", "White", "Black"],
             transmission: "Automatic",
             engineType: "Gasoline",
-            mileage: 5000
+            mileage: 5000,
+            image: "Car Images/Volkswagen Jetta.jpeg"
         }
     },
     audi: {
@@ -193,7 +195,8 @@ var cars = {
             colors: ["White", "Silver", "Black"],
             transmission: "Automatic",
             engineType: "Gasoline",
-            mileage: 4000
+            mileage: 4000,
+            image: "Car Images/audia3.jpeg"
         },
         a4: {
             model: "Audi A4 Quattro",
@@ -202,7 +205,8 @@ var cars = {
             colors: ["Gray", "White", "Black"],
             transmission: "Automatic",
             engineType: "Gasoline",
-            mileage: 6000
+            mileage: 6000,
+            image: "Car Images/Audia4.jpeg"
         }
     },
     bmw: {
@@ -213,17 +217,9 @@ var cars = {
             colors: ["White", "Silver", "Black"],
             transmission: "Automatic",
             engineType: "Gasoline",
-            mileage: 5000
+            mileage: 5000,
+            image: "Car Images/BMW 330i.jpeg"
         },
-        x1: {
-            model: "BMW X1 xDrive28i",
-            year: 2021,
-            price: "580,000 Pkr",
-            colors: ["Gray", "White", "Black"],
-            transmission: "Automatic",
-            engineType: "Gasoline",
-            mileage: 6000
-        }
     },
     mercedes: {
         cclass: {
@@ -233,7 +229,8 @@ var cars = {
             colors: ["White", "Silver", "Black"],
             transmission: "Automatic",
             engineType: "Gasoline",
-            mileage: 5000
+            mileage: 5000,
+            image: "Car Images/benz.jpg"  
         },
         eclass: {
             model: "Mercedes-Benz E 350",
@@ -242,7 +239,8 @@ var cars = {
             colors: ["Gray", "White", "Black"],
             transmission: "Automatic",
             engineType: "Gasoline",
-            mileage: 6000
+            mileage: 6000,
+            image: "Car Images/beneclass.jpeg"  
         }
     },
     landrover: {
@@ -253,7 +251,8 @@ var cars = {
             colors: ["White", "Silver", "Black"],
             transmission: "Automatic",
             engineType: "Gasoline",
-            mileage: 5000
+            mileage: 5000,
+            image: "Car Images/rangerover.jpeg"  
         },
         discovery: {
             model: "Land Rover Discovery Sport",
@@ -262,7 +261,8 @@ var cars = {
             colors: ["Gray", "White", "Black"],
             transmission: "Automatic",
             engineType: "Gasoline",
-            mileage: 6000
+            mileage: 6000,
+            image: "Car Images/discovery.jpeg"  
         }
     },
     porsche: {
@@ -273,7 +273,8 @@ var cars = {
             colors: ["White", "Silver", "Black"],
             transmission: "Manual",
             engineType: "Gasoline",
-            mileage: 5000
+            mileage: 5000,
+            image: "Car Images/Porsche718.jpeg"  
         },
         macan: {
             model: "Porsche Macan S",
@@ -282,7 +283,8 @@ var cars = {
             colors: ["Gray", "White", "Black"],
             transmission: "Automatic",
             engineType: "Gasoline",
-            mileage: 6000
+            mileage: 6000,
+            image: "Car Images/PorscheMacan.jpeg"  
         }
     },
     ferrari: {
@@ -293,7 +295,8 @@ var cars = {
             colors: ["Red", "Black", "Silver"],
             transmission: "Automatic",
             engineType: "Gasoline",
-            mileage: 5000
+            mileage: 5000,
+            image: "Car Images/Ferrari488.jpeg"  
         },
         f8: {
             model: "Ferrari F8 Tributo",
@@ -302,7 +305,8 @@ var cars = {
             colors: ["Red", "Black", "White"],
             transmission: "Automatic",
             engineType: "Gasoline",
-            mileage: 6000
+            mileage: 6000,
+            image: "Car Images/Ferrarif8.jpeg"  
         }
     },
     lamborghini: {
@@ -313,7 +317,8 @@ var cars = {
             colors: ["Orange", "Black", "White"],
             transmission: "Automatic",
             engineType: "Gasoline",
-            mileage: 5000
+            mileage: 5000,
+            image: "Car Images/LamborghiniHuracan.jpeg"  
         },
         urus: {
             model: "Lamborghini Urus",
@@ -322,47 +327,8 @@ var cars = {
             colors: ["Gray", "Black", "White"],
             transmission: "Automatic",
             engineType: "Gasoline",
-            mileage: 6000
-        }
-    },
-    maserati: {
-        ghibli: {
-            model: "Maserati Ghibli S",
-            year: 2020,
-            price: "1,500,000 Pkr",
-            colors: ["White", "Silver", "Black"],
-            transmission: "Automatic",
-            engineType: "Gasoline",
-            mileage: 5000
-        },
-        levante: {
-            model: "Maserati Levante S",
-            year: 2021,
-            price: "1,800,000 Pkr",
-            colors: ["Gray", "White", "Black"],
-            transmission: "Automatic",
-            engineType: "Gasoline",
-            mileage: 6000
-        }
-    },
-    bentley: {
-        continental: {
-            model: "Bentley Continental GT",
-            year: 2020,
-            price: "2,200,000 Pkr",
-            colors: ["White", "Silver", "Black"],
-            transmission: "Automatic",
-            engineType: "Gasoline",
-            mileage: 5000
-        },
-        flyingSpur: {
-            model: "Bentley Flying Spur",
-            year: 2021,
-            price: "2,800,000 Pkr",
-            colors: ["Gray", "White", "Black"],
-            transmission: "Automatic",
-            engineType: "Gasoline",
-            mileage: 6000
+            mileage: 6000,
+            image: "Car Images/LamborghiniUrus.jpeg"  
         }
     },
     rollsroyce: {
@@ -373,7 +339,8 @@ var cars = {
             colors: ["White", "Silver", "Black"],
             transmission: "Automatic",
             engineType: "Gasoline",
-            mileage: 5000
+            mileage: 5000,
+            image: "Car Images/Rolls-Royce Phantom.jpeg"  
         },
         ghost: {
             model: "Rolls-Royce Ghost",
@@ -382,7 +349,8 @@ var cars = {
             colors: ["Gray", "White", "Black"],
             transmission: "Automatic",
             engineType: "Gasoline",
-            mileage: 6000
+            mileage: 6000,
+            image: "Car Images/Rolls-Royce Ghost.jpeg"  
         }
     },
     landcruiser: {
@@ -393,7 +361,8 @@ var cars = {
             colors: ["White", "Silver", "Black"],
             transmission: "Automatic",
             engineType: "Gasoline",
-            mileage: 5000
+            mileage: 5000,
+            image: "Car Images/Toyota Land Cruiser Prado.jpeg"  
         },
         lc200: {
             model: "Toyota Land Cruiser LC200",
@@ -402,29 +371,10 @@ var cars = {
             colors: ["Gray", "White", "Black"],
             transmission: "Automatic",
             engineType: "Gasoline",
-            mileage: 6000
+            mileage: 6000,
+            image: "Car Images/Toyota Land Cruiser LC200.jpeg"  
         }
     },
-    jaguar: {
-        ftype: {
-            model: "Jaguar F-Type",
-            year: 2020,
-            price: "1,800,000 Pkr",
-            colors: ["White", "Silver", "Black"],
-            transmission: "Automatic",
-            engineType: "Gasoline",
-            mileage: 5000
-        },
-        xe: {
-            model: "Jaguar XE",
-            year: 2021,
-            price: "2,200,000 Pkr",
-            colors: ["Gray", "White", "Black"],
-            transmission: "Automatic",
-            engineType: "Gasoline",
-            mileage: 6000
-        }
-    }
 }
 
 const companyName = document.getElementById("companyName");
@@ -472,6 +422,7 @@ function searchCar() {
     const companyNameValue = companyName.value.toLocaleLowerCase();
     const brandNameValue = brandName.value.toLocaleLowerCase();
     const carInfo = cars[companyNameValue][brandNameValue];
+
     availableCars.innerHTML = `<div class="col m-2">
         <div class="card" style="width: 18rem;">
           <div class="card-body">
