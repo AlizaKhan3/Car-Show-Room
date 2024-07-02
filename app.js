@@ -470,14 +470,16 @@ var cars = {
     }
 }
 
-var companyName = document.getElementById("companyName");
-var brandName = document.getElementById("brandName");
+const companyName = document.getElementById("companyName");
+const brandName = document.getElementById("brandName");
+const availableCars = document.getElementById("availableCars");
+
 
 companyName.innerHTML = `<option>Select Company</option>`
 brandName.innerHTML = `<option>Select Brand</option>`
 
 
-for (var key in cars) {
+for (const key in cars) {
     // console.log(key);
     companyName.innerHTML += `
     <option value = "${key}"> ${key.toLocaleUpperCase()} </option>`
@@ -496,11 +498,3 @@ for (const key in cars[companyName.value]){
     <option> ${key.toLocaleUpperCase()}</option>`
     }
 }
-
-
-
-    // const selectedCompany = companyName.value;
-    // for (var _key in cars[selectedCompany]){
-    //   console.log(_key);
-    // }
-//   }

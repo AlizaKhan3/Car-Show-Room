@@ -5,19 +5,21 @@
 }
 
 .navbar{
-    background-color: #A29415;
+    background-color: #011627;
     height: 80px;
-    /* color: #fff; */
 }
 
 .navbar-brand{
-    font-style: italic;
-}
-.nav-span{
-    color: #E9DB5D;
-    font-weight: bolder;
+    color: #fff;
+    font-weight: bold;
     font-size: xx-large;
-    font-style: normal;
+}
+
+.navbar-brand:hover {
+    color: #FF9F1C !important;
+    /* background-color: aqua; */
+    font-weight: bold;
+    font-size: xx-large;
 }
 
 .form-select{
@@ -29,15 +31,15 @@
 } */
 
 .btn-primary{
-    background-color: #E3D026;
-    border: 1px solid #E3D026;
+    background-color: #FF9F1C;
+    border: 1px solid #FF9F1C;
 }
 .btn-primary:hover{
-    background-color: #E3D026 !important;
-    border: 1px solid #E3D026 !important;
+    background-color: #FF9F1C !important;
+    border: 1px solid #FF9F1C;
 }
 
 .btn-primary:focus{
-    background-color: #eddd4b !important;
-    border: 1px solid #eddd4b !important;
+    background-color: #ffa01cd1 !important;
+    border: 1px solid #ffa01cd1 !important;
 }
