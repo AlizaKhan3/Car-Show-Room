@@ -1,6 +1,6 @@
 var cars = {
-    Honda: {
-        Civic: {
+    honda: {
+        civic: {
             model: "Honda Civic Reborn",
             year: 2019,
             price: "240,000 Pkr",
@@ -9,7 +9,7 @@ var cars = {
             engineType: "Gasoline",
             mileage: 5000
         },
-        Accord: {
+        accord: {
             model: "Honda Accord Hybrid",
             year: 2020,
             price: "350,000 Pkr",
@@ -19,8 +19,8 @@ var cars = {
             mileage: 10000
         }
     },
-    Toyota: {
-        Corolla: {
+    toyota: {
+        corolla: {
             model: "Toyota Corolla Altis",
             year: 2018,
             price: "200,000 Pkr",
@@ -29,7 +29,7 @@ var cars = {
             engineType: "Gasoline",
             mileage: 3000
         },
-        Camry: {
+        camry: {
             model: "Toyota Camry XSE",
             year: 2021,
             price: "400,000 Pkr",
@@ -39,8 +39,8 @@ var cars = {
             mileage: 5000
         }
     },
-    Suzuki: {
-        Swift: {
+    suzuki: {
+        swift: {
             model: "Suzuki Swift GLX",
             year: 2017,
             price: "150,000 Pkr",
@@ -49,7 +49,7 @@ var cars = {
             engineType: "Gasoline",
             mileage: 2000
         },
-        Vitara: {
+        vitara: {
             model: "Suzuki Vitara GLX",
             year: 2019,
             price: "250,000 Pkr",
@@ -59,8 +59,8 @@ var cars = {
             mileage: 4000
         }
     },
-    Nissan: {
-        Altima: {
+    nissan: {
+        altima: {
             model: "Nissan Altima SV",
             year: 2020,
             price: "300,000 Pkr",
@@ -69,7 +69,7 @@ var cars = {
             engineType: "Gasoline",
             mileage: 6000
         },
-        Sentra: {
+        sentra: {
             model: "Nissan Sentra SR",
             year: 2018,
             price: "220,000 Pkr",
@@ -79,8 +79,8 @@ var cars = {
             mileage: 3000
         }
     },
-    Hyundai: {
-        Elantra: {
+    hyundai: {
+        elantra: {
             model: "Hyundai Elantra GLS",
             year: 2019,
             price: "280,000 Pkr",
@@ -89,7 +89,7 @@ var cars = {
             engineType: "Gasoline",
             mileage: 4000
         },
-        Sonata: {
+        sonata: {
             model: "Hyundai Sonata Limited",
             year: 2021,
             price: "380,000 Pkr",
@@ -99,8 +99,8 @@ var cars = {
             mileage: 6000
         }
     },
-    Kia: {
-        Rio: {
+    kia: {
+        rio: {
             model: "Kia Rio EX",
             year: 2018,
             price: "180,000 Pkr",
@@ -109,7 +109,7 @@ var cars = {
             engineType: "Gasoline",
             mileage: 2000
         },
-        Optima: {
+        optima: {
             model: "Kia Optima SX",
             year: 2020,
             price: "320,000 Pkr",
@@ -119,8 +119,8 @@ var cars = {
             mileage: 5000
         }
     },
-    Mazda: {
-        Mazda3: {
+    mazda: {
+        mazda3: {
             model: "Mazda3 Sport",
             year: 2019,
             price: "260,000 Pkr",
@@ -129,7 +129,7 @@ var cars = {
             engineType: "Gasoline",
             mileage: 3000
         },
-        CX5: {
+        cx5: {
             model: "Mazda CX-5 Grand Touring",
             year: 2021,
             price: "420,000 Pkr",
@@ -139,8 +139,8 @@ var cars = {
             mileage: 6000
         }
     },
-    Ford: {
-        Focus: {
+    ford: {
+        focus: {
             model: "Ford Focus Titanium",
             year: 2018,
             price: "200,000 Pkr",
@@ -149,7 +149,7 @@ var cars = {
             engineType: "Gasoline",
             mileage: 2000
         },
-        Fusion: {
+        fusion: {
             model: "Ford Fusion SE",
             year: 2020,
             price: "300,000 Pkr",
@@ -159,8 +159,8 @@ var cars = {
             mileage: 4000
         }
     },
-    Volkswagen: {
-        Golf: {
+    volkswagen: {
+        golf: {
             model: "Volkswagen Golf TSI",
             year: 2019,
             price: "240,000 Pkr",
@@ -169,7 +169,7 @@ var cars = {
             engineType: "Gasoline",
             mileage: 3000
         },
-        Jetta: {
+        jetta: {
             model: "Volkswagen Jetta GLI",
             year: 2021,
             price: "320,000 Pkr",
@@ -179,8 +179,8 @@ var cars = {
             mileage: 5000
         }
     },
-    Audi: {
-        A3: {
+    audi: {
+        a3: {
             model: "Audi A3 Premium",
             year: 2020,
             price: "380,000 Pkr",
@@ -189,7 +189,7 @@ var cars = {
             engineType: "Gasoline",
             mileage: 4000
         },
-        A4: {
+        a4: {
             model: "Audi A4 Quattro",
             year: 2021,
             price: "480,000 Pkr",
@@ -199,8 +199,8 @@ var cars = {
             mileage: 6000
         }
     },
-    BMW: {
-        Series: {
+    bmw: {
+        series: {
             model: "BMW 330i",
             year: 2020,
             price: "500,000 Pkr",
@@ -209,7 +209,7 @@ var cars = {
             engineType: "Gasoline",
             mileage: 5000
         },
-        X1: {
+        x1: {
             model: "BMW X1 xDrive28i",
             year: 2021,
             price: "580,000 Pkr",
@@ -219,8 +219,8 @@ var cars = {
             mileage: 6000
         }
     },
-    Mercedes: {
-        CClass: {
+    mercedes: {
+        cclass: {
             model: "Mercedes-Benz C 300",
             year: 2020,
             price: "550,000 Pkr",
@@ -229,7 +229,7 @@ var cars = {
             engineType: "Gasoline",
             mileage: 5000
         },
-        EClass: {
+        eclass: {
             model: "Mercedes-Benz E 350",
             year: 2021,
             price: "650,000 Pkr",
@@ -239,28 +239,8 @@ var cars = {
             mileage: 6000
         }
     },
-    Lexus: {
-        ES: {
-            model: "Lexus ES 350",
-            year: 2020,
-            price: "600,000 Pkr",
-            colors: ["White", "Silver", "Black"],
-            transmission: "Automatic",
-            engineType: "Gasoline",
-            mileage: 5000
-        },
-        RX: {
-            model: "Lexus RX 350",
-            year: 2021,
-            price: "700,000 Pkr",
-            colors: ["Gray", "White", "Black"],
-            transmission: "Automatic",
-            engineType: "Gasoline",
-            mileage: 6000
-        }
-    },
-    LandRover: {
-        RangeRover: {
+    landrover: {
+        rangerover: {
             model: "Land Rover Range Rover Velar",
             year: 2020,
             price: "800,000 Pkr",
@@ -269,7 +249,7 @@ var cars = {
             engineType: "Gasoline",
             mileage: 5000
         },
-        Discovery: {
+        discovery: {
             model: "Land Rover Discovery Sport",
             year: 2021,
             price: "900,000 Pkr",
@@ -279,8 +259,8 @@ var cars = {
             mileage: 6000
         }
     },
-    Porsche: {
-        Cayman: {
+    porsche: {
+        cayman: {
             model: "Porsche 718 Cayman",
             year: 2020,
             price: "1,000,000 Pkr",
@@ -289,7 +269,7 @@ var cars = {
             engineType: "Gasoline",
             mileage: 5000
         },
-        Macan: {
+        macan: {
             model: "Porsche Macan S",
             year: 2021,
             price: "1,200,000 Pkr",
@@ -299,7 +279,7 @@ var cars = {
             mileage: 6000
         }
     },
-    Ferrari: {
+    ferrari: {
         488: {
             model: "Ferrari 488 GTB",
             year: 2020,
@@ -309,7 +289,7 @@ var cars = {
             engineType: "Gasoline",
             mileage: 5000
         },
-        F8: {
+        f8: {
             model: "Ferrari F8 Tributo",
             year: 2021,
             price: "2,500,000 Pkr",
@@ -319,8 +299,8 @@ var cars = {
             mileage: 6000
         }
     },
-    Lamborghini: {
-        Huracan: {
+    lamborghini: {
+        huracan: {
             model: "Lamborghini Huracan Evo",
             year: 2020,
             price: "3,000,000 Pkr",
@@ -329,7 +309,7 @@ var cars = {
             engineType: "Gasoline",
             mileage: 5000
         },
-        Urus: {
+        urus: {
             model: "Lamborghini Urus",
             year: 2021,
             price: "3,500,000 Pkr",
@@ -339,8 +319,8 @@ var cars = {
             mileage: 6000
         }
     },
-    Maserati: {
-        Ghibli: {
+    maserati: {
+        ghibli: {
             model: "Maserati Ghibli S",
             year: 2020,
             price: "1,500,000 Pkr",
@@ -349,7 +329,7 @@ var cars = {
             engineType: "Gasoline",
             mileage: 5000
         },
-        Levante: {
+        levante: {
             model: "Maserati Levante S",
             year: 2021,
             price: "1,800,000 Pkr",
@@ -359,8 +339,8 @@ var cars = {
             mileage: 6000
         }
     },
-    Bentley: {
-        Continental: {
+    bentley: {
+        continental: {
             model: "Bentley Continental GT",
             year: 2020,
             price: "2,200,000 Pkr",
@@ -369,7 +349,7 @@ var cars = {
             engineType: "Gasoline",
             mileage: 5000
         },
-        FlyingSpur: {
+        flyingSpur: {
             model: "Bentley Flying Spur",
             year: 2021,
             price: "2,800,000 Pkr",
@@ -379,8 +359,8 @@ var cars = {
             mileage: 6000
         }
     },
-    RollsRoyce: {
-        Phantom: {
+    rollsroyce: {
+        phantom: {
             model: "Rolls-Royce Phantom",
             year: 2020,
             price: "3,200,000 Pkr",
@@ -389,7 +369,7 @@ var cars = {
             engineType: "Gasoline",
             mileage: 5000
         },
-        Ghost: {
+        ghost: {
             model: "Rolls-Royce Ghost",
             year: 2021,
             price: "3,800,000 Pkr",
@@ -399,28 +379,8 @@ var cars = {
             mileage: 6000
         }
     },
-    AstonMartin: {
-        DB11: {
-            model: "Aston Martin DB11",
-            year: 2020,
-            price: "2,500,000 Pkr",
-            colors: ["White", "Silver", "Black"],
-            transmission: "Automatic",
-            engineType: "Gasoline",
-            mileage: 5000
-        },
-        Vantage: {
-            model: "Aston Martin Vantage",
-            year: 2021,
-            price: "3,000,000 Pkr",
-            colors: ["Gray", "White", "Black"],
-            transmission: "Automatic",
-            engineType: "Gasoline",
-            mileage: 7000
-        }
-    },
-    LandCruiser: {
-        Prado: {
+    landcruiser: {
+        prado: {
             model: "Toyota Land Cruiser Prado",
             year: 2020,
             price: "2,500,000 Pkr",
@@ -429,7 +389,7 @@ var cars = {
             engineType: "Gasoline",
             mileage: 5000
         },
-        LC200: {
+        lc200: {
             model: "Toyota Land Cruiser LC200",
             year: 2021,
             price: "3,000,000 Pkr",
@@ -439,17 +399,8 @@ var cars = {
             mileage: 6000
         }
     },
-    Vantage: {
-        model: "Aston Martin Vantage",
-        year: 2021,
-        price: "3,000,000 Pkr",
-        colors: ["Gray", "White", "Black"],
-        transmission: "Automatic",
-        engineType: "Gasoline",
-        mileage: 6000
-    },
-    Jaguar: {
-        FType: {
+    jaguar: {
+        ftype: {
             model: "Jaguar F-Type",
             year: 2020,
             price: "1,800,000 Pkr",
@@ -458,7 +409,7 @@ var cars = {
             engineType: "Gasoline",
             mileage: 5000
         },
-        XE: {
+        xe: {
             model: "Jaguar XE",
             year: 2021,
             price: "2,200,000 Pkr",
@@ -481,20 +432,50 @@ brandName.innerHTML = `<option>Select Brand</option>`
 
 for (const key in cars) {
     // console.log(key);
-    companyName.innerHTML += `
-    <option value = "${key}"> ${key.toLocaleUpperCase()} </option>`
-    // for (const key1 in cars[key]){
-    //     // console.log(key1);
-    //     brandName.innerHTML += `
-    //     <option>${key1.toLocaleUpperCase()}</option>`
-    // }
+    companyName.innerHTML += `<option value = "${key}"> ${key.toLocaleUpperCase()} </option>`
 }
 
-function onCompanyChange(){
+for (const key in cars) {
+    for (const key1 in cars[key]) {
+        // console.log(cars[key][key1]);
+
+        availableCars.innerHTML += `<div class="col m-2">
+  <div class="card" style="width: 18rem;">
+    <div class="card-body">
+      <h5 class="card-title">${cars[key][key1].model || undefined} </h5>
+      <img src="" class="card-img-top" alt="...">
+      <h6 class="card-subtitle mb-2 text-body-secondary">${cars[key][key1].year || undefined}</h6>
+      <h6 class="card-title">Rs ${cars[key][key1].price || undefined}</h6>
+    </div>
+  </div>
+</div> `
+    }
+}
+
+
+function onCompanyChange() {
     brandName.innerHTML = "";
-for (const key in cars[companyName.value]){
-    // console.log(key);
-    brandName.innerHTML += `
+    for (const key in cars[companyName.value]) {
+        // console.log(key);
+        brandName.innerHTML += `
     <option> ${key.toLocaleUpperCase()}</option>`
     }
+}
+
+
+
+function searchCar() {
+    const companyNameValue = companyName.value.toLocaleLowerCase();
+    const brandNameValue = brandName.value.toLocaleLowerCase();
+    const carInfo = cars[companyNameValue][brandNameValue];
+    availableCars.innerHTML = `<div class="col m-2">
+        <div class="card" style="width: 18rem;">
+          <div class="card-body">
+            <h5 class="card-title">${carInfo.model} </h5>
+            <img src="" class="card-img-top" alt="...">
+            <h6 class="card-subtitle mb-2 text-body-secondary">${carInfo.year}</h6>
+            <h6 class="card-title">Rs ${carInfo.price}</h6>
+          </div>
+        </div>
+      </div> `;
 }

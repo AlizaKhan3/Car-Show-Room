@@ -22,13 +22,13 @@
     font-size: xx-large;
 }
 
+.navbar-toggler{
+    background-color: #FF9F1C;
+}
+
 .form-select{
     width: 200px;
 }
-
-/* #companyName{
-    width: 250px;
-} */
 
 .btn-primary{
     background-color: #FF9F1C;
@@ -43,3 +43,14 @@
     background-color: #ffa01cd1 !important;
     border: 1px solid #ffa01cd1 !important;
 }
+
+
+
+
+/* @media only screen and(max-width: 500px) {
+    form{
+        display: flex;
+        flex-direction: column;
+    }
+    
+} */
