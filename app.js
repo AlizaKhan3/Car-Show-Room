@@ -43,6 +43,18 @@ var cars = {
             image: "Car Images/toyotacamry.jpeg"
         }
     },
+    daihatsu: {
+        coure: {
+            model: "Daihatsu Coure CX",
+            year: 2009,
+            price: "800,000 Pkr",
+            colors: ["Silver", "Black", "Maroon","Darkblue","purple"],
+            transmission: "Manual",
+            engineType: "Gasoline",
+            mileage: 80000,
+            image: "Car Images/coure.jpeg"
+        }
+    },
     suzuki: {
         swift: {
             model: "Suzuki Swift GLX",
@@ -58,7 +70,7 @@ var cars = {
             model: "Suzuki Vitara GLX",
             year: 2019,
             price: "250,000 Pkr",
-            colors: ["Gray", "Blue", "White","lightblue"],
+            colors: ["Gray", "Blue", "White", "lightblue"],
             transmission: "Automatic",
             engineType: "Gasoline",
             mileage: 4000,
@@ -74,7 +86,7 @@ var cars = {
             transmission: "CVT",
             engineType: "Gasoline",
             mileage: 6000,
-            image: "Car Images/nissanaltima.jpeg" 
+            image: "Car Images/nissanaltima.jpeg"
         },
         sentra: {
             model: "Nissan Sentra SR",
@@ -84,7 +96,7 @@ var cars = {
             transmission: "Automatic",
             engineType: "Gasoline",
             mileage: 3000,
-            image: "Car Images/nissansentra.jpeg"  
+            image: "Car Images/nissansentra.jpeg"
         }
     },
     hyundai: {
@@ -230,7 +242,7 @@ var cars = {
             transmission: "Automatic",
             engineType: "Gasoline",
             mileage: 5000,
-            image: "Car Images/benz.jpg"  
+            image: "Car Images/benz.jpg"
         },
         eclass: {
             model: "Mercedes-Benz E 350",
@@ -240,7 +252,7 @@ var cars = {
             transmission: "Automatic",
             engineType: "Gasoline",
             mileage: 6000,
-            image: "Car Images/beneclass.jpeg"  
+            image: "Car Images/beneclass.jpeg"
         }
     },
     landrover: {
@@ -252,7 +264,7 @@ var cars = {
             transmission: "Automatic",
             engineType: "Gasoline",
             mileage: 5000,
-            image: "Car Images/rangerover.jpeg"  
+            image: "Car Images/rangerover.jpeg"
         },
         discovery: {
             model: "Land Rover Discovery Sport",
@@ -262,7 +274,7 @@ var cars = {
             transmission: "Automatic",
             engineType: "Gasoline",
             mileage: 6000,
-            image: "Car Images/discovery.jpeg"  
+            image: "Car Images/discovery.jpeg"
         }
     },
     porsche: {
@@ -274,7 +286,7 @@ var cars = {
             transmission: "Manual",
             engineType: "Gasoline",
             mileage: 5000,
-            image: "Car Images/Porsche718.jpeg"  
+            image: "Car Images/Porsche718.jpeg"
         },
         macan: {
             model: "Porsche Macan S",
@@ -284,7 +296,7 @@ var cars = {
             transmission: "Automatic",
             engineType: "Gasoline",
             mileage: 6000,
-            image: "Car Images/PorscheMacan.jpeg"  
+            image: "Car Images/PorscheMacan.jpeg"
         }
     },
     ferrari: {
@@ -296,7 +308,7 @@ var cars = {
             transmission: "Automatic",
             engineType: "Gasoline",
             mileage: 5000,
-            image: "Car Images/Ferrari488.jpeg"  
+            image: "Car Images/Ferrari488.jpeg"
         },
         f8: {
             model: "Ferrari F8 Tributo",
@@ -306,7 +318,7 @@ var cars = {
             transmission: "Automatic",
             engineType: "Gasoline",
             mileage: 6000,
-            image: "Car Images/Ferrarif8.jpeg"  
+            image: "Car Images/Ferrarif8.jpeg"
         }
     },
     lamborghini: {
@@ -318,7 +330,7 @@ var cars = {
             transmission: "Automatic",
             engineType: "Gasoline",
             mileage: 5000,
-            image: "Car Images/LamborghiniHuracan.jpeg"  
+            image: "Car Images/LamborghiniHuracan.jpeg"
         },
         urus: {
             model: "Lamborghini Urus",
@@ -328,7 +340,7 @@ var cars = {
             transmission: "Automatic",
             engineType: "Gasoline",
             mileage: 6000,
-            image: "Car Images/LamborghiniUrus.jpeg"  
+            image: "Car Images/LamborghiniUrus.jpeg"
         }
     },
     rollsroyce: {
@@ -340,17 +352,17 @@ var cars = {
             transmission: "Automatic",
             engineType: "Gasoline",
             mileage: 5000,
-            image: "Car Images/Rolls-Royce Phantom.jpeg"  
+            image: "Car Images/Rolls-Royce Phantom.jpeg"
         },
         ghost: {
             model: "Rolls-Royce Ghost",
             year: 2021,
             price: "3,800,000 Pkr",
-            colors: ["Blue","Gray", "White", "Black", "Red"],
+            colors: ["Blue", "Gray", "White", "Black", "Red"],
             transmission: "Automatic",
             engineType: "Gasoline",
             mileage: 6000,
-            image: "Car Images/Rolls-Royce Ghost.jpeg"  
+            image: "Car Images/Rolls-Royce Ghost.jpeg"
         }
     },
     landcruiser: {
@@ -362,7 +374,7 @@ var cars = {
             transmission: "Automatic",
             engineType: "Gasoline",
             mileage: 5000,
-            image: "Car Images/Toyota Land Cruiser Prado.jpeg"  
+            image: "Car Images/Toyota Land Cruiser Prado.jpeg"
         },
         lc200: {
             model: "Toyota Land Cruiser LC200",
@@ -372,7 +384,7 @@ var cars = {
             transmission: "Automatic",
             engineType: "Gasoline",
             mileage: 6000,
-            image: "Car Images/Toyota Land Cruiser LC200.jpeg"  
+            image: "Car Images/Toyota Land Cruiser LC200.jpeg"
         }
     },
 }
@@ -383,7 +395,6 @@ const availableCars = document.getElementById("availableCars");
 
 companyName.innerHTML = `<option>Select Company</option>`
 brandName.innerHTML = `<option>Select Brand</option>`
-
 
 for (const key in cars) {
     // console.log(key);
@@ -402,7 +413,6 @@ for (const key in cars) {
             // console.log(colorsDiv)
         }
 
-
         availableCars.innerHTML += `<div class="col m-2">
   <div class="card" style="width: 18rem;">
     <div class="card-body">
@@ -417,7 +427,6 @@ for (const key in cars) {
     }
 }
 
-
 function onCompanyChange() {
     brandName.innerHTML = "";
     for (const key in cars[companyName.value]) {
@@ -426,7 +435,6 @@ function onCompanyChange() {
     <option> ${key.toLocaleUpperCase()}</option>`
     }
 }
-
 
 function searchCar() {
     const companyNameValue = companyName.value.toLocaleLowerCase();
@@ -439,8 +447,6 @@ function searchCar() {
         colorsDiv += `<div style="width: 20px; height: 20px; background-color: ${colorOfCar}; border-radius: 50%; display: inline-block; margin: 2px; border:1px solid #000"></div>`
         // console.log(colorsDiv)
     }
-
-
 
     availableCars.innerHTML = `<div class="col m-2">
         <div class="card" style="width: 30rem;">
