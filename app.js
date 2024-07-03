@@ -393,6 +393,16 @@ for (const key in cars) {
 for (const key in cars) {
     for (const key1 in cars[key]) {
         // console.log(cars[key][key1]);
+        var carData = cars[key][key1].colors;
+        // console.log(carData);
+        colorsDiv = "";
+        for (let i = 0; i < carData.length; i++) {
+            const colorOfCar = carData[i];
+            colorsDiv += `<div style="width: 10px; height: 10px; background-color: ${colorOfCar}; border-radius: 50%; display: inline-block; margin: 2px; border:1px solid #000"></div>`
+            console.log(colorsDiv)
+        }
+
+
         availableCars.innerHTML += `<div class="col m-2">
   <div class="card" style="width: 18rem;">
     <div class="card-body">
@@ -400,11 +410,13 @@ for (const key in cars) {
       <h5 class="card-title">${cars[key][key1].model || undefined} </h5>
       <h6 class="card-subtitle mb-2 text-body-secondary">${cars[key][key1].year || undefined}</h6>
       <h6 class="card-title">Rs ${cars[key][key1].price || undefined}</h6>
+      <div>${colorsDiv}</div>
     </div>
   </div>
 </div> `
     }
 }
+
 
 function onCompanyChange() {
     brandName.innerHTML = "";
@@ -414,6 +426,7 @@ function onCompanyChange() {
     <option> ${key.toLocaleUpperCase()}</option>`
     }
 }
+
 
 function searchCar() {
     const companyNameValue = companyName.value.toLocaleLowerCase();
