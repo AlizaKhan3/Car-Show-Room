@@ -26,7 +26,7 @@ var cars = {
             model: "Toyota Corolla Altis",
             year: 2018,
             price: "200,000 Pkr",
-            colors: ["White", "Silver", "Gray"],
+            colors: ["White", "Silver", "Gray", "Black"],
             transmission: "Automatic",
             engineType: "Gasoline",
             mileage: 3000,
@@ -36,7 +36,7 @@ var cars = {
             model: "Toyota Camry XSE",
             year: 2021,
             price: "400,000 Pkr",
-            colors: ["Black", "Red", "White"],
+            colors: ["Black", "Red", "White", "silver"],
             transmission: "Automatic",
             engineType: "Gasoline",
             mileage: 5000,
@@ -58,7 +58,7 @@ var cars = {
             model: "Suzuki Vitara GLX",
             year: 2019,
             price: "250,000 Pkr",
-            colors: ["Gray", "Blue", "White"],
+            colors: ["Gray", "Blue", "White","lightblue"],
             transmission: "Automatic",
             engineType: "Gasoline",
             mileage: 4000,
@@ -158,7 +158,7 @@ var cars = {
             model: "Ford Fusion SE",
             year: 2020,
             price: "300,000 Pkr",
-            colors: ["Gray", "White", "Black"],
+            colors: ["Gray", "DarkBlue", "Black"],
             transmission: "Automatic",
             engineType: "Gasoline",
             mileage: 4000,
@@ -258,7 +258,7 @@ var cars = {
             model: "Land Rover Discovery Sport",
             year: 2021,
             price: "900,000 Pkr",
-            colors: ["Gray", "White", "Black"],
+            colors: ["Gray", "Maroon", "Black"],
             transmission: "Automatic",
             engineType: "Gasoline",
             mileage: 6000,
@@ -292,7 +292,7 @@ var cars = {
             model: "Ferrari 488 GTB",
             year: 2020,
             price: "2,000,000 Pkr",
-            colors: ["Red", "Black", "Silver"],
+            colors: ["Red", "Blue", "Silver", "yellow"],
             transmission: "Automatic",
             engineType: "Gasoline",
             mileage: 5000,
@@ -324,7 +324,7 @@ var cars = {
             model: "Lamborghini Urus",
             year: 2021,
             price: "3,500,000 Pkr",
-            colors: ["Gray", "Black", "White"],
+            colors: ["Gray", "Black", "Yellow", "Blue"],
             transmission: "Automatic",
             engineType: "Gasoline",
             mileage: 6000,
@@ -346,7 +346,7 @@ var cars = {
             model: "Rolls-Royce Ghost",
             year: 2021,
             price: "3,800,000 Pkr",
-            colors: ["Gray", "White", "Black"],
+            colors: ["Blue","Gray", "White", "Black", "Red"],
             transmission: "Automatic",
             engineType: "Gasoline",
             mileage: 6000,
@@ -398,7 +398,7 @@ for (const key in cars) {
         colorsDiv = "";
         for (let i = 0; i < carData.length; i++) {
             const colorOfCar = carData[i];
-            colorsDiv += `<div style="width: 10px; height: 10px; background-color: ${colorOfCar}; border-radius: 50%; display: inline-block; margin: 2px; border:1px solid #000"></div>`
+            colorsDiv += `<div style="width: 20px; height: 20px; background-color: ${colorOfCar}; border-radius: 50%; display: inline-block; margin: 2px; border:1px solid #000"></div>`
             console.log(colorsDiv)
         }
 
