@@ -434,9 +434,9 @@ function searchCar() {
     const carInfo = cars[companyNameValue][brandNameValue];
 
     availableCars.innerHTML = `<div class="col m-2">
-        <div class="card" style="width: 18rem;">
+        <div class="card" style="width: 30rem;">
           <div class="card-body">
-            <img  src="${carInfo.image}" class="card-img-top cardImg mb-2" alt="...">
+            <img style="height: 15rem;" src="${carInfo.image}" class="card-img-top cardImg mb-2" alt="...">
              <h5 class="card-title">${carInfo.model} </h5>
             <h6 class="card-subtitle mb-2 text-body-secondary">${carInfo.year}</h6>
             <h6 class="card-title">Rs ${carInfo.price}</h6>
