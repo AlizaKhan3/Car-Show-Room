@@ -399,7 +399,7 @@ for (const key in cars) {
         for (let i = 0; i < carData.length; i++) {
             const colorOfCar = carData[i];
             colorsDiv += `<div style="width: 20px; height: 20px; background-color: ${colorOfCar}; border-radius: 50%; display: inline-block; margin: 2px; border:1px solid #000"></div>`
-            console.log(colorsDiv)
+            // console.log(colorsDiv)
         }
 
 
@@ -433,6 +433,15 @@ function searchCar() {
     const brandNameValue = brandName.value.toLocaleLowerCase();
     const carInfo = cars[companyNameValue][brandNameValue];
 
+    colorsDiv = "";
+    for (let i = 0; i < carData.length; i++) {
+        const colorOfCar = carData[i];
+        colorsDiv += `<div style="width: 20px; height: 20px; background-color: ${colorOfCar}; border-radius: 50%; display: inline-block; margin: 2px; border:1px solid #000"></div>`
+        // console.log(colorsDiv)
+    }
+
+
+
     availableCars.innerHTML = `<div class="col m-2">
         <div class="card" style="width: 30rem;">
           <div class="card-body">
@@ -440,6 +449,7 @@ function searchCar() {
              <h5 class="card-title">${carInfo.model} </h5>
             <h6 class="card-subtitle mb-2 text-body-secondary">${carInfo.year}</h6>
             <h6 class="card-title">Rs ${carInfo.price}</h6>
+             <div>${colorsDiv}</div>
           </div>
         </div>
       </div> `;
